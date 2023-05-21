@@ -6,8 +6,8 @@ const product = props.product
         <Card>
             <Card.Body>
             <Card.Img className="card-img-top" src={product.picture}></Card.Img>
-                <Card.Title>{product.title}</Card.Title>
-                <Card.Text>${product.price}</Card.Text>
+                <Card.Title className="pt-2">{product.title}</Card.Title>
+                <Card.Text>${product.price} per slice</Card.Text>
                 <Button className="">Add to Cart</Button>
             </Card.Body>
         </Card>
